@@ -1,75 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
-      rel="stylesheet"
-    />
-    <title>HI all</title>
-  </head>
-  <body>
-    <!-- This is an example component -->
-    <div class="container mx-auto">
-      <div class="flex flex-col">
-        <div class="px-10 py-10 overflow-x-auto">
-            <div
-            class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8 text-center"
-          >Hi team!</div>
-          <div
-            class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8"
-          >
-            <div
-              class="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg"
-            >
-              <table class="min-w-full divide-y divide-gray-200">
-                <thead class="bg-gray-50">
-                  <tr>
-                    <th
-                      scope="col"
-                      class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
-                    >
-                      Name
-                    </th>
-                    <th
-                      scope="col"
-                      class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
-                    >
-                      Title
-                    </th>
-                    <th scope="col" class="relative px-6 py-3">
-                      <span class="sr-only">Edit</span>
-                    </th>
-                  </tr>
-                </thead>
-                <tbody class="bg-white divide-y divide-gray-200">
-                  <tr>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+  <title>HI all</title>
+</head>
+
+<body>
+  <!-- This is an example component -->
+  <div class="container mx-auto">
+    <div class="flex flex-col">
+      <div class="px-10 py-10 overflow-x-auto">
+        <div class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8 text-center">Hi team!</div>
+        <div class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
+          <div class="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
+            <table class="min-w-full divide-y divide-gray-200">
+              <thead class="bg-gray-50">
+                <tr>
+                  <th scope="col"
+                    class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                    Name
+                  </th>
+                  <th scope="col"
+                    class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                    Title
+                  </th>
+                  <th scope="col" class="relative px-6 py-3">
+                    <span class="sr-only">Edit</span>
+                  </th>
+                </tr>
+              </thead>
+              <tbody class="bg-white divide-y divide-gray-200">
+                <tr>
+                  <td class="px-6 py-4 whitespace-nowrap">
+                    <div class="flex items-center">
+                      <div class="flex-shrink-0 h-10 w-10">
+                        <img class="h-10 w-10 rounded-full object-cover"
+                          src="https://www.pngitem.com/pimgs/m/9-96138_shows-over-persona-5-joker-persona-5-sticker.png"
+                          alt="" />
+                      </div>
+                      <div class="ml-4">
+                        <div class="text-sm font-medium text-gray-900">
+                          Kenichi
+                        </div>
+                        <div class="text-sm text-gray-500">
+                          kenichixie@gmail.com
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td class="px-6 py-4 whitespace-nowrap">
+                    <div class="text-sm text-gray-900">
+                      Software Engineer
+                    </div>
+                    <div class="text-sm text-gray-500">Engineering Productivity</div>
+                  </td>
+                  <td class="px-6 py-4 whitespace-nowrap">
+                    <span
+                      class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                      Active
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="px-6 py-4 whitespace-nowrap">
+                    <div class="flex items-center">
+                      <div class="flex-shrink-0 h-10 w-10">
+                        <img class="h-10 w-10 rounded-full object-cover"
+                          src="https://i.pinimg.com/564x/d5/ae/6f/d5ae6f3bd82d16843731947433f72860.jpg" alt="" />
+                      </div>
+                      <div class="ml-4">
+                        <div class="text-sm font-medium text-gray-900">
+                          Winnie
+                        </div>
+                        <div class="text-sm text-gray-500">
+                          monica.winnie3@gmail.com
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td class="px-6 py-4 whitespace-nowrap">
+                    <div class="text-sm text-gray-900">
+                      Student
+                    </div>
+                    <div class="text-sm text-gray-500">Student</div>
+                  </td>
+                  <td class="px-6 py-4 whitespace-nowrap">
+                    <span
+                      class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                      Active
+                    </span>
+                  </td>
+                </tr>
+                <tr>
                     <td class="px-6 py-4 whitespace-nowrap">
                       <div class="flex items-center">
                         <div class="flex-shrink-0 h-10 w-10">
                           <img
                             class="h-10 w-10 rounded-full object-cover"
-                            src="https://www.pngitem.com/pimgs/m/9-96138_shows-over-persona-5-joker-persona-5-sticker.png"
+                            src="data:image/jpeg;base64,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"
                             alt=""
                           />
                         </div>
                         <div class="ml-4">
                           <div class="text-sm font-medium text-gray-900">
-                            Kenichi
+                            Bryan
                           </div>
                           <div class="text-sm text-gray-500">
-                            kenichixie@gmail.com
+                            bryansutanto@gmail.com
                           </div>
                         </div>
                       </div>
                     </td>
                     <td class="px-6 py-4 whitespace-nowrap">
                       <div class="text-sm text-gray-900">
-                        Software Engineer
+                        College Student
                       </div>
-                      <div class="text-sm text-gray-500">Engineering Productivity</div>
+                      <div class="text-sm text-gray-500">Still Learning</div>
                     </td>
                     <td class="px-6 py-4 whitespace-nowrap">
                       <span
@@ -79,8 +129,7 @@
                       </span>
                     </td>
                   </tr>
-				  
-				  <tr>
+				           <tr>
                     <td class="px-6 py-4 whitespace-nowrap">
                       <div class="flex items-center">
                         <div class="flex-shrink-0 h-10 w-10">
@@ -114,13 +163,14 @@
                       </span>
                     </td>
                   </tr>
-                  <!-- More items... -->
-                </tbody>
-              </table>
-            </div>
+                <!-- More items... -->
+              </tbody>
+            </table>
           </div>
         </div>
       </div>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
